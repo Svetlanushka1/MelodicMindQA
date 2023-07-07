@@ -30,6 +30,7 @@ public class TestBase {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.get("https://la-vocal-staging.web.app/");
+        int e = 78;
     }
 
     @BeforeMethod(alwaysRun = true)
